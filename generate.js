@@ -1,7 +1,7 @@
 const openai = require("openai");
 
 // Set your OpenAI API key
-openai.apiKey = "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";
+openai.apiKey = "";
 
 // Define the prompt for the text generation
 const prompt = "Once upon a time";
