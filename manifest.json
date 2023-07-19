@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+
+    "name": "Youtube Podcast Summery",
+    "description": "A Long Podcast Summarizer for lazy people ",
+    "version": "1.0",
+    "author": "@this_might_be_abhi",
+
+    "background": {
+        "scripts": ["popup.js"],
+        "type": "module",
+        "persistent": true
+    },
+
+    "permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ],
+
+    "browser_action": {
+        "default_icon": "logo.png",
+        "default_popup": "popup.html"
+    }
+}
